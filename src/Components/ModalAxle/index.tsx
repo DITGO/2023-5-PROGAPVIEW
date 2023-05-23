@@ -10,6 +10,7 @@ type Props = {
 
 const ModalAxle = ({ id, openModal, closeModal }: Props) => {
   const [form] = Form.useForm();
+
   const handleOk = (e: any) => {
     e.preventDefault();
     form
