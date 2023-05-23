@@ -24,7 +24,7 @@ ChartJS.register(
   ArcElement,
 );
 
-export const options = {
+export const options: any = {
   responsive: true,
   plugins: {
     legend: {
